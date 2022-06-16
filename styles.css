@@ -1,0 +1,121 @@
+body {
+  background: hsl(217, 54%, 11%);
+  font-family: 'outfit';  
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: hsl(216, 50%, 16%);
+  padding: 24px;
+  max-width: 300px;
+  border-radius: 15px;
+}
+
+.image-container {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.img-cube {
+  width: 100%;
+}
+
+.overlay {
+ background: hsla(178, 100%, 50%, 0.467);
+ padding: 500px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ opacity: 0;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+h1 {
+  font-size: 22px;
+  margin-top: 24px;
+}
+
+.p-eth {
+  color: hsl(178, 100%, 50%);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.p-author, .p-clock {
+  font-size: 16px;
+}
+
+.p-eth, .p-clock {
+  margin: 0;
+  padding: 0;
+}
+
+.amount-days {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 28px;
+}
+
+.amount, .days {
+  display: flex;
+  
+}
+
+.icon-eth, .icon-clock {
+  padding: 2px 8px 0 0;
+  height: 18px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid hsl(215, 32%, 27%);
+  padding-top: 14px;
+}
+
+.img-author {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  margin-right: 16px;
+}
+
+.attribution { 
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 11px;
+  text-align: center; 
+  color: white;
+  }
+
+.attribution a { 
+  color: hsl(178, 100%, 50%); 
+}
